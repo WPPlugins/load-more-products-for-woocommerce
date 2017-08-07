@@ -1,0 +1,40 @@
+.lmp_products_loading, .lmp_load_more_button {
+    width: 100%;
+    text-align: center;
+    clear: both;
+}
+.lmp_products_loading .fa {
+    width: 2em;
+    height: 2em;
+    font-size: 2em;
+    line-height: 1.3em;
+}
+.lmp_products_loading .fa img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.lmp_products_loading .lmp_rotate, .lmp_products_loading .fa.lmp_rotate:before, .lmp_products_loading .lmp_rotate img {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-animation:spin 2s linear infinite;
+    -moz-animation:spin 2s linear infinite;
+    animation:spin 2s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.lmp_load_more_button .lmp_button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 22px;
+    color: #333;
+    background-color: #aaaaff;
+    text-decoration: none;
+    line-height: 1em;
+}
+.lmp_load_more_button .lmp_button:hover {
+    background-color: #9999ff;
+    color: #111;
+}

@@ -1,0 +1,11 @@
+<wpml-config>  
+    <admin-texts>
+        <key name="br_lmp_button_settings">
+            <key name="button_text" />
+        </key>
+        <key name="br_lmp_messages_settings">
+            <key name="loading" />
+            <key name="end_text" />
+        </key>
+    </admin-texts> 
+</wpml-config>

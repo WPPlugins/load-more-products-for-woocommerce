@@ -1,0 +1,62 @@
+.berocket_aapf_select_icon{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999999;
+}
+.berocket_aapf_select_icon div{
+	position: absolute;
+	top: 5%;
+	bottom: 5%;
+	left: 5%;
+	right: 5%;
+    background-color: white;
+    color: #555;
+    font-size: 2em;
+    padding: 10px;
+    overflow: auto;
+}
+.berocket_aapf_select_icon div i{
+    width: 1.5em;
+    padding: 4px 0;
+    text-align: center;
+    border-radius: 5px;
+}
+.berocket_aapf_select_icon div i:hover{
+    color: #338;
+    background-color: #CCC;
+}
+.berocket_aapf_select_icon div p{
+    font-size: 1.5em;
+    margin: 0;
+    color: #222;
+}
+.berocket_aapf_select_icon div p i.fa{
+    color: #338;
+    position: fixed;
+    top: 6%;
+    right: 6%;
+    cursor:pointer;
+    background-color: white;
+}
+.berocket_aapf_select_icon div p i.fa:hover{
+    color: #66B;
+}
+.berocket_aapf_select_icon div .berocket_aapf_icon_select{
+    display: none;
+}
+.berocket_aapf_select_icon div label{
+    margin: 5px;
+    display: inline-block;
+}
+.berocket_aapf_selected_icon_show{
+    font-size: 2em;
+    margin:0 10px;
+}
+.berocket_aapf_selected_icon_show img{
+    max-width: 1em;
+    max-height: 1em;
+}
